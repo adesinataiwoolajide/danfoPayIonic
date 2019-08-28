@@ -1,0 +1,131 @@
+<ion-header>
+    <ion-toolbar color="danger">
+		<ion-buttons slot="start">
+			<ion-menu-button></ion-menu-button>
+		</ion-buttons>
+		<ion-title>
+			MY TRIPS
+		</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid>
+		<ion-row size="12">
+			<!-- <ion-searchbar showCancelButton="focus" color="danger" value="Enter Destination"></ion-searchbar> -->
+			
+			<ion-tabs color="success">
+				<ion-tab-bar slot="top">
+					<ion-tab-button tab="upcoming-trips" [routerLinkActive]="['/mytrip']">
+						<!-- <ion-icon name="calendar"></ion-icon> -->
+						<ion-label>UPCOMING TRIPS</ion-label>
+					</ion-tab-button>
+				
+					<ion-tab-button tab="past-trips">
+						<!-- <ion-icon name="contacts"></ion-icon> -->
+						<ion-label>PAST TRIPS</ion-label>
+					</ion-tab-button>
+				
+					
+				</ion-tab-bar>
+			</ion-tabs>
+		</ion-row>
+    </ion-grid>
+    <ion-grid class="grid1">
+		<ion-row >
+			<ion-card >
+			
+				<ion-card-content> 
+					<ion-list>
+						<ion-item class="item">
+
+							
+							<ion-row size="12">
+								<ion-col size="12">
+									<ion-text color="success"><h5 align="right">CONFIMRED</h5></ion-text>
+								</ion-col>
+								<ion-col size="3">
+									<ion-badge color="warning" align="center">22</ion-badge>
+									<ion-text color=""><h5 align="left">Friday</h5></ion-text>
+								</ion-col>
+								<ion-col size="9">
+									<p align="center">Bodija - Ojoo</p>
+									<ion-item>
+										<ion-thumbnail slot="start">
+											<img src="/assets/icon/user.png">
+										</ion-thumbnail>
+										<ion-label>
+											<h5>Adesina Taiwo</h5>
+											<p>Vehicle - Innova</p>
+										</ion-label>
+									</ion-item>
+									
+								</ion-col>
+							</ion-row>
+							
+						</ion-item>
+						
+					</ion-list>
+
+					<hr>
+					<ion-row>
+						<ion-col size="6">
+							<ion-text color="lignt"><h5 align="left">sep 2019</h5></ion-text>
+						</ion-col>
+						<ion-col size="6">
+							<ion-text color="danger"><h5 align="right">Cancel</h5></ion-text>
+						</ion-col>
+
+					</ion-row>
+				</ion-card-content>
+
+				<ion-card-content> 
+						<ion-list>
+							<ion-item class="item">
+	
+								
+								<ion-row size="12">
+									<ion-col size="12">
+										<ion-text color="success"><h5 align="right">CONFIMRED</h5></ion-text>
+									</ion-col>
+									<ion-col size="3">
+										<ion-badge color="warning" align="center">22</ion-badge>
+										<ion-text color=""><h5 align="left">Friday</h5></ion-text>
+									</ion-col>
+									<ion-col size="9">
+										<p align="center">Bodija - Ojoo</p>
+										<ion-item>
+											<ion-thumbnail slot="start">
+												<img src="/assets/icon/user.png">
+											</ion-thumbnail>
+											<ion-label>
+												<h5>Adesina Taiwo</h5>
+												<p>Vehicle - Innova</p>
+											</ion-label>
+										</ion-item>
+										
+									</ion-col>
+								</ion-row>
+								
+							</ion-item>
+							
+						</ion-list>
+	
+						<hr>
+						<ion-row>
+							<ion-col size="6">
+								<ion-text color="lignt"><h5 align="left">sep 2019</h5></ion-text>
+							</ion-col>
+							<ion-col size="6">
+								<ion-text color="danger"><h5 align="right">Cancel</h5></ion-text>
+							</ion-col>
+	
+						</ion-row>
+					</ion-card-content>
+
+			</ion-card>
+
+		</ion-row>
+    </ion-grid>
+
+</ion-content>
